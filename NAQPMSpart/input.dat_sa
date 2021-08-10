@@ -1,0 +1,31 @@
+2020 09 20 00
+3         ! Nest Domain in (total domain)!.true.    ! new input APM!'bulk'    ! new input APM
+480       ! 360 run time   240 2184
+1   480   ! hrs 2184
+1   480   ! hrs 2184
+1   480   ! hrs 2184
+1          ! diffusion scheme 1: local 2 : nonlocal ACM2
+1          ! gas chemistry (CBM-Z) 1--yes 0 --no
+2          ! dry scheme   1--constant 2--calculated
+1          ! iglobal, 0:fix;1:global MOZART;2:global chaser
+1          ! landuse category  1: modis  2: USGS
+100        ! the hpa of defined top boundary
+20000      ! the top height of NAQPMS m
+30 20 3    ! nzz,nzsm_out,intzsm 
+ 147 120 30 1  1   ! nx,ny,nz,nxlo,nylo
+ 135 123 30 69 43  ! nx,ny,nz,nxlo,nylo
+ 177 243 30 39 14  ! nx,ny,nz,nxlo,nylo
+ 3      ! resolution ratio between mother and child domain (1 value)
+ 4      !isize
+ 2      !iaer
+ 11.348127E-04,43.162551E-04,10.8355374E-03,37.5083238E-03 !  !Sea Salt Gravel
+ 4.01E-05, 1.46E-04, 5.34E-04, 1.96E-03  !Dust Gravel ! Wang thesis
+ 0.1 1.0 2.5 5.0 10.0 ! DUST SIZE
+ 0.1 1.0 2.5 5.0 10.0 ! SEA SALT Mass size distribution
+ 0  0  0    ! ifsm(ne),ne=1,nest
+ 0  0  0    ! ifsa(ne),ne=1,nest ! ifsm is necessary
+ 0  0  0    ! iHgtLMax,iSrcDefiend, ismday
+~                                                                               
+~                                                                               
+~                                                                 
+                                                              
